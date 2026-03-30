@@ -1,0 +1,102 @@
+Prescripto/
+├── backend/
+│   ├── config/
+│   │   ├── cloudinary.js
+│   │   └── mongodb.js
+│   ├── controllers/
+│   │   ├── adminController.js
+│   │   ├── doctorController.js
+│   │   └── userController.js
+│   ├── middlewares/
+│   │   ├── authAdmin.js
+│   │   ├── authDoctor.js
+│   │   ├── authUser.js
+│   │   └── multer.js
+│   ├── models/
+│   │   ├── appointmentModel.js
+│   │   ├── doctorModel.js
+│   │   └── userModel.js
+│   ├── routes/
+│   │   ├── adminRoute.js
+│   │   ├── doctorRoute.js
+│   │   └── userRoute.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+├── admin-portal/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── DoctorCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Sidebar.jsx
+│   │   ├── context/
+│   │   │   ├── AdminContext.jsx
+│   │   │   ├── AppContext.jsx
+│   │   │   └── DoctorContext.jsx
+│   │   ├── layout/
+│   │   │   ├── AdminLayout.jsx
+│   │   │   └── DoctorLayout.jsx
+│   │   ├── pages/
+│   │   │   ├── admin/
+│   │   │   │   ├── AddDoctor.jsx
+│   │   │   │   ├── AllAppointments.jsx
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   └── DoctorList.jsx
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   ├── NotAuthorized.jsx
+│   │   │   │   └── NotFound.jsx
+│   │   │   └── doctor/
+│   │   │       ├── DoctorAppointments.jsx
+│   │   │       ├── DoctorDashboard.jsx
+│   │   │       └── DoctorProfile.jsx
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── index.html
+│   ├── vite.config.js
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Banner.jsx
+│   │   │   ├── ConfirmModal.jsx
+│   │   │   ├── DoctorCard.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── RelatedDoctors.jsx
+│   │   │   ├── ScrollToTop.jsx
+│   │   │   ├── SpecialityMenu.jsx
+│   │   │   └── TopDoctors.jsx
+│   │   ├── context/
+│   │   │   └── AppContext.jsx
+│   │   ├── layout/
+│   │   │   ├── AdminLayout.jsx
+│   │   │   └── DoctorLayout.jsx
+│   │   ├── pages/
+│   │   │   ├── About.jsx
+│   │   │   ├── Appointment.jsx
+│   │   │   ├── Appointments.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Doctors.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── NotFound.jsx
+│   │   │   └── Profile.jsx
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── index.html
+│   ├── vite.config.js
+│   └── package.json
+│
+└── README.md
