@@ -18,6 +18,7 @@ import Developers from "./pages/Developers"
 import Careers from './pages/Careers'
 import Blog from "./pages/Blog"
 import Faq from "./pages/Faq"
+import ScrollButtons from "./components/ScrollButtons";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <ToastContainer/>
       <Navbar></Navbar>
       <ScrollToTop/>
+      <ScrollButtons/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/doctors' element={<Doctors/>}/>

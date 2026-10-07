@@ -2,8 +2,10 @@ import React from "react";
 import sakshiImg from "../assets/sakshi.jpeg";
 import santoshiImg from "../assets/santoshi.jpeg";
 import sahyadriImg from "../assets/sahyadri.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const Developers = () => {
+  const navigate = useNavigate();
   return (
     <div className="px-6 py-10 md:px-20">
       
@@ -11,10 +13,12 @@ const Developers = () => {
         Meet the Developers
       </h1>
 
-      <p className="mb-12 text-center text-gray-600">
+      {/* <p className="mb-12 text-center text-gray-600">
         The passionate team behind <span className="font-semibold text-primary">Prescripto </span> 
         who worked together to build a smart healthcare platform.
-      </p>
+      </p> */}
+
+      <p className="mb-12 text-center text-gray-600"> The passionate team behind{" "}<span onClick={() => {navigate('/'); window.scrollTo(0, 0);}} className="font-semibold cursor-pointer text-primary hover:underline"> Prescripto </span>{" "} who worked together to build a smart healthcare platform.</p>
 
       <div className="grid gap-8 md:grid-cols-3">
         

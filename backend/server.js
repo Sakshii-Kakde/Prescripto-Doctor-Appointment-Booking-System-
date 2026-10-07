@@ -7,6 +7,7 @@ import adminRouter from './routes/adminRoute.js'
 import doctorRouter from './routes/doctorRoute.js'
 import userRouter from './routes/userRoute.js'
 import contactRouter from "./routes/contactRoute.js"
+// import careerRoutes from "./routes/careerRoutes.js";
 
 
 // app config
@@ -36,3 +37,4 @@ app.listen(port, () => {
 })
 
 app.use("/api/contact", contactRouter)
+// app.use("/api/careers", careerRoutes);
